@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>login page</title>
+        <style>
+            body{
+                background-color: blue;
+            }
+            .div1{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-color: white;
+            }
+            mark{
+                background-color: white;
+                color: blue;
+            }
+            img{
+                float:left;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="div1">
+            <h2>login</h2>
+            <form>
+                <img src="envelop_login.jpg" alt="loading" width="15px"; height=" 15px"/>
+                <input type="text" id="email" placeholder="Enter your email" style="border:none"><br>
+                 <hr>
+                <img src="lock.png" alt="loading" width="15px"; height="15px"/>
+                <img style="float: right;"   src="show password.png" alt="loading" width="15px";height="15px"/>
+                <input type="text" id="password" placeholder="Confirm a password" style="border:none"><br> 
+                <hr>
+                    <p style="float: right; color:blue">Forgot password</p>
+                    <input type="checkbox" id="remember me"  value="remember me">
+                    <label for ="remember me">remember me</label><br>
+                    <input type="submit" value="Login Now" style="background-color: blue; color: white; border-color: blue; border-radius: 12px ;margin:10px;">
+            </form>
+            <p>Don't have an account? <mark>signup now</mark></p>
+        </div>
+
+    </body>
+
+</html>
